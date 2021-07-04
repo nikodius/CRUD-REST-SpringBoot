@@ -1,0 +1,11 @@
+
+https://us-east-2.console.aws.amazon.com/
+
+ssh -i "api-rest.pem" ubuntu@ec2-3-139-105-139.us-east-2.compute.amazonaws.com
+scp -i .\api-rest.pem .\CRUD-REST-0.0.1-SNAPSHOT.jar ubuntu@ec2-3-139-105-139.us-east-2.compute.amazonaws.com:/home/ubuntu/
+
+
+https://console.cloud.google.com/
+
+gcloud init
+gcloud app deploy
